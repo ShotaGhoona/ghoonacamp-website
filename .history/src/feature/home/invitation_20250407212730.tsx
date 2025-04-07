@@ -1,0 +1,47 @@
+import SectionTitle from '@/components/common/SectionTitle';
+import InvitationCard from '@/components/common/InvitationCard';
+
+const activities = [
+  {
+    number: 1,
+    title: "公式LINEを追加",
+    subtitle: "下のボタンから",
+    imageUrl: "information.png",
+  },
+  {
+    number: 2,
+    title: "公式LINEを追加",
+    subtitle: "下のボタンから",
+    imageUrl: "information.png",
+  },
+  {
+    number: 3,
+    title: "公式LINEを追加",
+    subtitle: "下のボタンから",
+    imageUrl: "information.png",
+  },
+];
+
+export default function ActivitySection() {
+  return (
+    <section className="relative w-full bg-no-repeat bg-cover px-5 md:px-20 py-20">
+      <SectionTitle title="What we are doing" />
+      <div className="text-center py-10">
+          <p className="text-xl font-bold">2025年、全国のわかものの朝を盛り上げるために作られた</p>
+          <p className="text-medium font-bold">若者の若者による若者のための</p>
+          <p className="text-4xl font-bold">オンラインコミュニティ</p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center">
+        {activities.map((activity, index) => (
+          <InvitationCard
+            key={index}
+            number={index + 1}
+            title={activity.title}
+            subtitle={activity.subtitle}
+            imageUrl={activity.imageUrl}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
