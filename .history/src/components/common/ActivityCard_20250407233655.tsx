@@ -13,13 +13,7 @@ type ActivityCardProps = {
         {/* 画像部分 */}
         <div className="w-full h-[150px] md:h-[200px] bg-gray-200 flex items-center justify-center">
           {imageUrl ? (
-            <Image
-              src={`/${imageUrl}`}
-              alt={title}
-              width={400}
-              height={200}
-              className="object-cover w-full h-full"
-            />
+            <img src={imageUrl} alt={title} className="object-cover w-full h-full" />
           ) : (
             <span className="text-gray-400">No Image</span>
           )}

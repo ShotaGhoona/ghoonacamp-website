@@ -16,13 +16,7 @@ export default function InvitationCard({ number, imageUrl, subtitle, title }: In
       <div className="flex md:flex-col flex-row items-center justify-center w-full">
         <div className="w-[30%] md:w-full h-[150px] md:h-[200px] flex items-center justify-center">
           {imageUrl ? (
-            <Image
-              src={`/${imageUrl}`}
-              alt={title}
-              width={200}
-              height={200}
-              className="object-contain w-[50%] h-[50%]"
-            />
+            <img src={imageUrl} alt={title} className="object-contain w-[50%] h-[50%]" />
           ) : (
             <span className="text-gray-400">No Image</span>
           )}

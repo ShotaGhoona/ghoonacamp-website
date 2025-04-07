@@ -11,19 +11,19 @@ type ServiceCardProps = {
 export default function ServiceCard({ title, description, imageUrl, href }: ServiceCardProps) {
   return (
     <div className="max-w-[400px] min-w-[200px] w-full rounded-md overflow-hidden relative">
-      <div className="w-full h-[150px] md:h-[200px] bg-gray-200 flex items-center justify-center shadow-md">
-        {imageUrl ? (
-          <Image
-            src={`/${imageUrl}`}
-            alt={title}
-            width={400}
-            height={200}
-            className="object-cover w-full h-full"
-          />
-        ) : (
-          <span className="text-gray-400">No Image</span>
-        )}
-      </div>
+    <div className="w-full h-[150px] md:h-[200px] bg-gray-200 flex items-center justify-center shadow-md">
+      {imageUrl ? (
+        <Image
+          src={`/${imageUrl}`}
+          alt={title}
+          width={400}
+          height={200}
+          className="object-cover w-full h-full"
+        />
+      ) : (
+        <span className="text-gray-400">No Image</span>
+      )}
+    </div>
 
       <div className="flex items-center justify-center gap-2 mt-10 mb-5">
         <div className="flex-1 h-[1px] bg-gray-400" />

@@ -14,7 +14,7 @@ export default function InvitationCard({ number, imageUrl, subtitle, title }: In
         {number}
       </div>
       <div className="flex md:flex-col flex-row items-center justify-center w-full">
-        <div className="w-[30%] md:w-full h-[150px] md:h-[200px] flex items-center justify-center">
+      <div className="w-[30%] md:w-full h-[150px] md:h-[200px] flex items-center justify-center">
           {imageUrl ? (
             <Image
               src={`/${imageUrl}`}
