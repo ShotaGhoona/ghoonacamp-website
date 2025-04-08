@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function PhilosophySection() {
   return (
     <section id="philosophy" className="relative w-full px-5 md:px-20 py-20 overflow-hidden">
-      <SectionTitle title="Philosophy" subtitle="哲学・思い" />
+      <SectionTitle title="Philosophy" subtitle="理念" />
       <div className="relative mt-8 flex items-center justify-between gap-8">
         <div className="relative w-full h-[500px] md:h-[600px] inset-0 md:rounded-2xl overflow-hidden">
           <Image 

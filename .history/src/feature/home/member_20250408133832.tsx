@@ -8,7 +8,7 @@ export default function MemberSection() {
       image2Url: '/member/shotayamashita2.jpg',
       name: '山下翔大',
       nameEn: 'Shota Yamashita',
-      description: '2020年京都大学京都大入学。インド留学中に3時間半の時差を利用して朝活を開始。朝の無限の可能性に感化され、朝活コミュニティを立ち上げる。全国に仲間を求めて奮闘中。',
+      description: '2020年京都大学京都大入学。テック企業のクリエイティブチームでリーダーとしてプロジェクトを牽引。AIの無限の可能性に感化され、インドで1年間のIT留学を経験。学在学中にGhoonaを設立。',
       dream: 'AIの力で世界を変える。',
     }
     // 追加のメンバーデータを記載

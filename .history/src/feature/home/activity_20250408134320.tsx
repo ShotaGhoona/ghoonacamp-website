@@ -44,7 +44,7 @@ export default function ActivitySection() {
   return (
     <section id="activity" className="relative w-full bg-no-repeat bg-cover px-5 md:px-20 py-20">
       <SectionTitle title="What we are doing" subtitle="活動内容" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center">
         {activities.map((activity, index) => (
           <ActivityCard
             key={index}
