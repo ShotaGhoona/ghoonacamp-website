@@ -44,7 +44,7 @@ export default function Sidebar() {
               </ul>
             </li>
 
-            {/* <li>
+            <li>
               <div className="flex items-center gap-5 text-[25px]">
                 <FontAwesomeIcon icon={faGear} className="w-[30px]" />
                 Activity
@@ -60,7 +60,7 @@ export default function Sidebar() {
                   <Link href="/activity/offmeeting">オフ会</Link>
                 </li>
               </ul>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
@@ -68,7 +68,7 @@ export default function Sidebar() {
       <div className="mb-4">
         <Link href="https://lin.ee/uhMzpqE" className="flex items-center justify-center bg-white text-black py-2 rounded-lg shadow">
           <Image src="/SVG/line.svg" alt="LINE公式" width={30} height={30} />
-          <span className="ml-2 font-semibold">公式LINEはこちら</span>
+          <span className="ml-2 font-semibold">LINE公式アカウント</span>
         </Link>
       </div>
     </aside>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function TopviewSection() {
   return (
-    <section className="relative w-full" style={{ height: "calc(100vh - 58px)" }}>
+    <section className="relative w-full h-screen">
       <Image
         src="/topview.jpg"
         alt="Topview Image"
@@ -22,7 +22,7 @@ export default function TopviewSection() {
         </div>
 
         {/* 下部キャッチコピー */}
-        <div className="text-white max-w-2xl mx-0 md:text-left">
+        <div className="text-white max-w-2xl mx-auto md:mx-0 md:text-left">
           <p className="text-[12px] md:text-base mb-1">早起きは三文の徳</p>
           <p className="text-[12px] md:text-base mb-1">1000年前からあるこの言葉を知らない人はません。</p>
           <p className="text-[12px] md:text-base mb-1">しかし、それを日々実現している人はほんの一握りです。</p>

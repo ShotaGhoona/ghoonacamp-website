@@ -14,9 +14,8 @@ export default function PhilosophySection() {
             className="rounded-2xl object-cover"
             priority
           />
-          <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent rounded-2xl"></div>
-          <div className="block md:hidden absolute inset-0 bg-[#ffffffbb] rounded-2xl"></div>
-          <div className="text-[11px] md:text-[15px] absolute z-10 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-900 font-bold flex flex-col gap-4 p-4 md:p-8">
+          <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent rounded-2xl"></div>
+          <div className="text-[10px] md:text-[15px] absolute z-10 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-900 font-bold flex flex-col gap-4 p-8">
             <p>
                 早起きは三文の徳<br />
                 1000年前からあるこの言葉を知らない人はいません。<br />

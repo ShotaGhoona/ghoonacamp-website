@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function TopviewSection() {
   return (
-    <section className="relative w-full" style={{ height: "calc(100vh - 58px)" }}>
+    <section className="relative w-full h-screen">
       <Image
         src="/topview.jpg"
         alt="Topview Image"

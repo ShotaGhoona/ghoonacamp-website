@@ -9,7 +9,7 @@ interface InvitationCardProps {
 
 export default function InvitationCard({ number, imageUrl, subtitle, title }: InvitationCardProps) {
   return (
-    <div className="w-full md:w-[300px] relative bg-white rounded-xl shadow-xl mb-10 md:mb-0 p-2 md:p-8 flex flex-col items-center text-center">
+    <div className="w-full md:w-[300px] relative bg-white rounded-xl shadow-xl mt-10 md:mt-0 p-2 md:p-8 flex flex-col items-center text-center">
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-[#d5697e] shadow-md text-white rounded-full w-16 h-16 flex items-center justify-center text-xl font-bold">
         {number}
       </div>

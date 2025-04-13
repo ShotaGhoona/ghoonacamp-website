@@ -29,7 +29,7 @@ export default function ActivitySection() {
       <div className="text-center pt-10 pb-25">
           <p className="text-2xl md:text-3xl font-bold">刺激し合える仲間を募集中！</p>
       </div>
-      <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-8 mt-10 md:mt-0 justify-center items-center">
         {activities.map((activity, index) => (
           <InvitationCard
             key={index}

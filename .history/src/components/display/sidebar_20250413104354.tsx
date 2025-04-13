@@ -44,7 +44,7 @@ export default function Sidebar() {
               </ul>
             </li>
 
-            {/* <li>
+            <li>
               <div className="flex items-center gap-5 text-[25px]">
                 <FontAwesomeIcon icon={faGear} className="w-[30px]" />
                 Activity
@@ -60,7 +60,7 @@ export default function Sidebar() {
                   <Link href="/activity/offmeeting">オフ会</Link>
                 </li>
               </ul>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
