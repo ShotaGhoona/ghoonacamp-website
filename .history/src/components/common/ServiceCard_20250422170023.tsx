@@ -7,7 +7,7 @@ type ServiceCardProps = {
   href: string; // 新しくhrefプロパティを追加
 };
 
-export default function ServiceCard({ title, description, imageUrl }: ServiceCardProps) {
+export default function ServiceCard({ title, description, imageUrl, href }: ServiceCardProps) {
   return (
     <div className="max-w-[400px] min-w-[200px] w-full rounded-md overflow-hidden relative">
       <div className="w-full bg-gray-200 flex items-center justify-center shadow-md">
