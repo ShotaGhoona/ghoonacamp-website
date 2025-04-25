@@ -20,8 +20,8 @@ export default function MemberSection() {
       dream: '高い視座で大きなことを',
     },
     {
-      image1Url: '/member/kotarosaeki1.jpg',
-      image2Url: '/member/kotarosaeki2.jpg',
+      image1Url: '/member/daimurayama1.jpg',
+      image2Url: '/member/daimurayama2.jpg',
       name: '佐伯航太郎',
       nameEn: 'Kohtaro Saeki',
       description: '2024年慶應義塾大学総合政策学部入学。朝活には、自分だけでなく、周りを、社会を、世界をも動かす力があると信じている。その可能性に、ワクワクが止まらなかった。インドで出会った山下、大学で志を共にした村山とGhoona Campに立ち上げ初期から携わる。',
